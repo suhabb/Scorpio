@@ -1,13 +1,16 @@
 # scorpio
 
-Eureka:http://localhost:8761/
-Weather Report : 
-http://localhost:8090/weather-report/findOne
-http://localhost:8090/weather-report/findAll
+- Eureka:
+1. http://localhost:8761/ 
 
-Weather Service : 
-http://localhost:8091/weather-service/findAll
-http://localhost:8091/weather-service/findOne
+- Weather Report : 
+
+1. http://localhost:8090/weather-report/findOne 
+2. http://localhost:8090/weather-report/findAll
+
+- Weather Service : 
+1. http://localhost:8091/weather-service/findAll 
+2. http://localhost:8091/weather-service/findOne
 
 
 

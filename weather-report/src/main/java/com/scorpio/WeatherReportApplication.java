@@ -22,7 +22,7 @@ public class WeatherReportApplication {
     }
 
     @Bean
-    @LoadBalanced
+    @LoadBalanced// to autowire ribbon client load balancer
     public RestTemplate restTemplate() {
         return new RestTemplate();
     }

@@ -1,4 +1,5 @@
 # scorpio
+- Implementaion of Eureka Service Discovery,Feign Client, Hystrix Fallback,Ribbon Load Balancer:
 
 - Eureka:
 1. http://localhost:8761/ 

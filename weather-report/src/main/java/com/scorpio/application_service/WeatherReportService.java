@@ -7,11 +7,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import java.util.List;
 
 @FeignClient(value = "WEATHER-SERVICE",fallback = WeatherReportServiceFallbackImpl.class)
+//@FeignClient(name = "WEATHER-SERVICE",url = "http://localhost:8091/weather-service/")
 public interface WeatherReportService {
 
-    @GetMapping("/weather-service/findAll")
+    @GetMapping("/findAll")
     List<WeatherDTO> findAll();
 
-    @GetMapping("/weather-service/findOne")
+    @GetMapping("/findOne")
     WeatherDTO findOne();
 }

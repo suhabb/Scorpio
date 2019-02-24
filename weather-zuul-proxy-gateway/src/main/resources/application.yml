@@ -1,0 +1,10 @@
+zuul:
+  routes:
+    weather-service:
+      path: /weather-service/**
+      serviceId: WEATHER-SERVICE
+      stripPrefix: false
+    weather-report-service:
+      path: /weather-report/**
+      serviceId: WEATHER-REPORT-SERVICE
+      stripPrefix: false
